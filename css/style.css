@@ -6,77 +6,72 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
-  .container img {
-    width: 100%;
-  }
 
-  h1.heading {
-    padding: 2em 0 1em 0;
-    font-size: 1.25em;
-    font-family: sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 500;
-  }
-
-  .preview{
-      position: relative;
-      width: 100%;
-      padding: 1em 0;
-  }
-
-  h1.top-left {
-    position: absolute;
-    top: 30px;
-    left: 20px;
-    font-size: 1.5em;
-   }
-
-@media screen and (min-width: 575px) {
-  .container {
-    margin: 0 5em;
-  }
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+.container > h1 {
+  padding: 2em 0 2em 0;
+  font-size: 1.25em;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  width: 100%;
 }
 
 .preview {
-  margin-top: 2em;
-  flex: 50%;
+  width: 98%;
+  padding: 10em 2em 20em 2em;
+  margin: 1%;
+}
+
+.preview > h1{
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.baku {
+    background: url("/images/baku.jpg") no-repeat;
+    background-size: cover;
+  }
+
+.london {
+    background: url("/images/london.png") no-repeat;
+    background-size: cover;
+}
+
+.madrid {
+    background: url("/images/madrid.jpg") no-repeat;
+    background-size: cover;
+}
+
+.rome {
+    background: url("/images/rome.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+@media screen and (min-width: 575px) {
+  .container{
+      margin: 0 5em;
+      display: flex;
+      flex: 50%;
+      flex-wrap: wrap;
+  }
+
+.preview {
   max-width: 50%;
-  padding: 0 1.2em;
-}
-
-.madrid img{
-  height: 96%;
-}
-
-.baku img {
-  height: 95%
-}
-
-.rome img {
-  height: 96%;
-}
-
-h1.top-left {
-  position: absolute;
-  top: 20px;
-  left: 25px;
-  font-size: 1.5em;
- }
+  flex: 48%;
+  padding: 4em 2em 22em 2em;
+  margin: 1% 1%;
 }
 
 @media screen and (min-width: 991px){
   .container {
-    margin: 0 10em;
+    margin: 0 5em;
   }
+
   .preview {
-    flex: 25%;
+    flex: 23%;
     max-width: 25%;
   }
 }
