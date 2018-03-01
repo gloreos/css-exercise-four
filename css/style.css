@@ -30,22 +30,22 @@ body {
 }
 
 .baku {
-    background: url("/images/baku.jpg") no-repeat;
+    background: url("../images/baku.jpg") no-repeat;
     background-size: cover;
   }
 
 .london {
-    background: url("/images/london.png") no-repeat;
+    background: url("../images/london.png") no-repeat;
     background-size: cover;
 }
 
 .madrid {
-    background: url("/images/madrid.jpg") no-repeat;
+    background: url("../images/madrid.jpg") no-repeat;
     background-size: cover;
 }
 
 .rome {
-    background: url("/images/rome.jpg") no-repeat;
+    background: url("../images/rome.jpg") no-repeat;
     background-size: cover;
 }
 
